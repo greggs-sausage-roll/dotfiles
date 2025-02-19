@@ -35,7 +35,9 @@ require('lazy').setup({
 
   require 'kickstart/plugins/conform',
 
-  require 'kickstart.plugins.noirbuddy',
+  -- require 'kickstart.plugins.noirbuddy',
+  --
+  -- require 'kickstart.plugins.github',
 
   require 'kickstart/plugins/cmp',
 

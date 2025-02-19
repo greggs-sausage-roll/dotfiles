@@ -54,5 +54,5 @@ if status is-interactive
     bind \cy execute
     bind \ep 'fzf-pass' 
 
-  #fish_config theme choose "Catppuccin Mocha"
+  fish_config theme choose "Catppuccin Mocha"
 end

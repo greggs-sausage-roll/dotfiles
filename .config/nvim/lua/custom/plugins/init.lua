@@ -9,7 +9,7 @@ return {
   -- require 'custom.plugins.configs.twilight',
 
   -- Colorscheme: rose-pine-moon
-  -- require 'custom.plugins.configs.catppuccin',
+  require 'custom.plugins.configs.catppuccin',
   -- require 'custom.plugins.configs.rose-pine',
 
   -- statusline
