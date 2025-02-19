@@ -1,0 +1,232 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[ 𝝺](bold blue)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+error_symbol = '[ 𝝺](bold red)'
+
+[directory]
+format = '[ $path](bold blue)($style)[$read_only]($read_only_style) '
+read_only = '  '
+# Disable the package module, hiding it from the prompt completely
+
+[git_metrics]
+disabled = false
+added_style = 'bold blue'
+
+[git_status]
+disabled = true
+
+[cmd_duration] 
+min_time = 5000
+
+[sudo]
+disabled = false
+symbol = '  '
+
+[jobs]
+format = ' [$symbol$number]($style) '
+
+[battery]
+format = ' [$symbol$percentage]($style) '
+
+[aws]
+symbol = "  "
+format = 'with [$symbol]($style)'
+
+[buf]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[c]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[conda]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[crystal]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[dart]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[docker_context]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[elixir]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[elm]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[fennel]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[fossil_branch]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[golang]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[guix_shell]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[haskell]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[haxe]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[hg_branch]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[hostname]
+ssh_symbol = " "
+format = 'with [$symbol]($style)'
+
+[java]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[julia]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[kotlin]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[lua]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[memory_usage]
+symbol = "󰍛 "
+format = 'with [$symbol]($style)'
+
+[meson]
+symbol = "󰔷 "
+format = 'with [$symbol]($style)'
+
+[nim]
+symbol = "󰆥 "
+format = 'with [$symbol]($style)'
+
+[nix_shell]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[nodejs]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[ocaml]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
+
+[package]
+symbol = "󰏗 "
+format = 'with [$symbol]($style)'
+
+[perl]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[php]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[pijul_channel]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[python]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[rlang]
+symbol = "󰟔 "
+format = 'with [$symbol]($style)'
+
+[ruby]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[rust]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[scala]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[swift]
+symbol = " "
+format = 'with [$symbol]($style)'
+
+[zig]
+symbol = " "
+format = 'with [$symbol]($style)'
