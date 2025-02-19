@@ -1,0 +1,7 @@
+#!/bin/fish 
+
+powerprofilesctl set $argv[1]
+
+notify-send "The current power profile is: " "$argv[1]"
+
+set POWER_PROFILE $argv[1]
