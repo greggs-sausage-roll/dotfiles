@@ -1,0 +1,1 @@
+rw intel_iommu=on amdgpu.sg_display=0 amdgpu.dcdebugmask=0x10 amdgpu.dpm=1 amdgpu.ppfeaturemask=0xfffd3fff amdgpu.dc=1 amdgpu.si_support=1 amdgpu.cik_support=1
