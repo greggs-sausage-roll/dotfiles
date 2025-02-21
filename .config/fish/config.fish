@@ -38,12 +38,12 @@ if status is-interactive
     zoxide init fish | source
     alias cd='z'
     
-    # EMERGE:
-    
-    abbr --add em sudo emerge --ask
-    abbr --add eq equery
-    abbr --add eu sudo emerge -avuDN @world
-    abbr --add es sudo emaint -a sync
+    # Pacman:
+  
+    abbr --add pas sudo pacman -S
+    abbr --add par sudo pacman -Rcs
+    abbr --add pac sudo pacman 
+    abbr --add pasu sudo pacman -Syu
 
     # BINDINGS
     
