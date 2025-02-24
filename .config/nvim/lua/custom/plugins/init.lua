@@ -16,7 +16,7 @@ return {
   -- require 'custom.plugins.configs.lualine',
 
   -- for better formatting
-  require 'custom.plugins.configs.indent-blankline',
+  -- require 'custom.plugins.configs.indent-blankline',
 
   require 'custom.plugins.configs.fzf',
 
@@ -24,6 +24,8 @@ return {
   -- require 'custom.plugins.configs.markdown-preview',
   --
   require 'custom.plugins.configs.markview',
+
+  require 'custom.plugins.configs.snacks',
 
   -- Colorsises colors and hex codes like '#7287fd'
   -- require 'custom.plugins.configs.nvim-colorizer',
